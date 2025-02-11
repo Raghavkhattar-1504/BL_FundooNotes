@@ -1,0 +1,6 @@
+info: ::1 - - [11/Feb/2025:18:42:21 +0000] "POST /api/v1/users/register HTTP/1.1" 201 250 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:18:47:38 +0000] "POST /api/v1/users/register HTTP/1.1" 201 301 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:18:52:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 34 "-" "PostmanRuntime/7.35.0"
+
