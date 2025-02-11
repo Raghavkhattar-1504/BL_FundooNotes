@@ -2,7 +2,7 @@ import User from '../models/user.model'
 import bcrypt from  "bcrypt";
 export async function UserService(req) {
   try {
-    const { name, email, phonenumber, password } = req.body;
+    const { name, email, phonenumber, password } = req.validatedBody;
 
     if (!(name || email || password)) {
       throw new Error("Please provide all required fields");
