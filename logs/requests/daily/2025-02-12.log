@@ -8,3 +8,51 @@ info: ::1 - - [11/Feb/2025:19:03:00 +0000] "POST /api/v1/users/register HTTP/1.1
 
 info: ::1 - - [11/Feb/2025:19:03:28 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "PostmanRuntime/7.35.0"
 
+info: ::1 - - [11/Feb/2025:19:15:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 89 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:15:52 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:18:08 +0000] "POST /api/v1/users/login HTTP/1.1" 500 62 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:18:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 89 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:19:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 29 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:19:22 +0000] "POST /api/v1/users/login HTTP/1.1" 500 30 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:19:44 +0000] "POST /api/v1/users/register HTTP/1.1" 500 55 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:20:28 +0000] "POST /api/v1/users/register HTTP/1.1" 201 303 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [11/Feb/2025:19:20:45 +0000] "POST /api/v1/users/login HTTP/1.1" 201 305 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [12/Feb/2025:04:23:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 55 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:24:39 +0000] "POST /api/v1/users/register HTTP/1.1" 500 34 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:24:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 304 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:25:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:25:26 +0000] "POST /api/v1/users/login HTTP/1.1" 201 306 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:42:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:43:27 +0000] "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:44:41 +0000] "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:47:50 +0000] "POST /api/v1/users/login HTTP/1.1" 201 261 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:04:48:06 +0000] "POST /api/v1/users/login HTTP/1.1" 201 261 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:02:38 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:04:26 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:06:23 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 201 974 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:08:06 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 201 974 "-" "PostmanRuntime/7.43.0"
+
