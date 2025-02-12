@@ -56,3 +56,169 @@ info: ::1 - - [12/Feb/2025:05:06:23 +0000] "GET /api/v1/users/getallusers HTTP/1
 
 info: ::1 - - [12/Feb/2025:05:08:06 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 201 974 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [12/Feb/2025:05:44:21 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:44:58 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:46:03 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:46:25 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:46:46 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 292 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:48:17 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 292 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:52:59 +0000] "POST /api/v1/notes/getallnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:53:09 +0000] "GET /api/v1/notes/getallnotes HTTP/1.1" 201 528 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:53:16 +0000] "GET /api/v1/notes/getallnotes HTTP/1.1" 201 528 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:54:52 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 305 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:05:56:24 +0000] "GET /api/v1/notes/getallnotes HTTP/1.1" 201 770 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:12:47 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:13:40 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:13:59 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 35 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:14:11 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 201 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:14:45 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 201 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:17:18 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:18:00 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:18:14 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:18:39 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:19:27 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:19:54 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:20:21 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:20:38 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:21:15 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:21:29 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:22:14 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 201 305 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:03:02 +0000] "GET /api/v1/notes/getnotebyid/67ac37aced2cab4618b29baa HTTP/1.1" 201 305 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:03:53 +0000] "POST /api/v1/users/login HTTP/1.1" 201 261 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:04:40 +0000] "PUT /api/v1/notes/update/67ac37aced2cab4618b29baa HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:05:21 +0000] "PUT /api/v1/notes/update/67ac37aced2cab4618b29baa HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:05:41 +0000] "PUT /api/v1/notes/update/67ac37aced2cab4618b29baa HTTP/1.1" 201 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:19:34 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:19:39 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:19:45 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:20:39 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:20:40 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:22:01 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:26:14 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:26:15 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 306 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:26:21 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 307 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:26:23 +0000] "DELETE /api/v1/notes/delete/67ac37aced2cab4618b29baa HTTP/1.1" 200 306 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:52:41 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:53:08 +0000] "PUT /api/v1/note/forgotpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:53:29 +0000] "PUT /api/v1/note/forgotpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:53:36 +0000] "PUT /api/v1/notes/forgotpassword HTTP/1.1" 200 77 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:54:49 +0000] "PUT /api/v1/notes/forgotpassword HTTP/1.1" 200 77 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:08:55:16 +0000] "PUT /api/v1/notes/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:23:47 +0000] "PUT /api/v1/notes/forgotpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:23:55 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:24:45 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:25:16 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:26:00 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:26:51 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:29:23 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:30:09 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:30:42 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:32:19 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:33:16 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 32 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:33:40 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 91 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:34:53 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:35:11 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 119 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:35:52 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 119 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:36:02 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:36:15 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 119 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:37:29 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 119 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:38:33 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 91 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:38:43 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:38:55 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 500 119 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:39:36 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:39:46 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 254 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:39:53 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 253 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:41:06 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:41:18 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 253 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:41:21 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 91 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:47:32 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:47:44 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 253 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:47:48 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 91 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:48:56 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:49:07 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 253 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:51:18 +0000] "PUT /api/v1/users/forgotpassword HTTP/1.1" 200 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:51:29 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 253 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:09:51:35 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 91 "-" "PostmanRuntime/7.43.0"
+

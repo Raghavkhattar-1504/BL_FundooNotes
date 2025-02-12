@@ -9,6 +9,8 @@ const router = express.Router();
 router.post('/register', newUserValidator, userController.registerUser);
 router.post('/login', loginValidator, userController.LoginUser);
 router.get('/getallusers', userAuth, userController.getAllUsers);
+router.put('/forgotpassword', userController.forgotPassword);
+router.put('/resetpassword' , userController.resetPassword);
 
 
 
