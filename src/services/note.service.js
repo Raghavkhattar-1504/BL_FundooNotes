@@ -10,9 +10,9 @@ export async function createNoteService(body) {
     }
 }
 
-export async function getAllNotesService() {
+export async function getAllNotesService(userId) {
     try {
-        const data = await Note.find();
+        const data = await Note.find({userId, isTrashed: false});
         return data;
 
     } catch (error) {

@@ -85,10 +85,7 @@ export async function resetPasswordService(body) {
     }
     recentOtp = null;
 
-    console.log("otp verified");
-
     const user = await User.findOne({ email });
-    console.log(user);
 
     if (!user) {
       throw new Error("Email not found");

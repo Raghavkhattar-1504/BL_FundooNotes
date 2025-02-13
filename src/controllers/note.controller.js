@@ -16,7 +16,7 @@ export async function createNote(req, res) {
 
 export async function getAllNotes(req, res) {
   try {
-    const note = await getAllNotesService();
+    const note = await getAllNotesService(req.body.userId);
     return res.status(201).json({
       message: "All notes fetched successfully",
       data: note,

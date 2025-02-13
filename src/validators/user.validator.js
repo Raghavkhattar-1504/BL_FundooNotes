@@ -17,15 +17,19 @@ export const newUserValidator = (req, res, next) => {
   }
 };
 
-
-
-
 export const loginValidator = (req, res, next) => {
   console.log("insideValidator");
   
   const schema = Joi.object({
-    email: Joi.string().email({ tlds: { allow: false } }).pattern(/@/).required(),
-    password: Joi.string().min(8).required()
+    email: Joi.string()
+        .email({ tlds: { allow: false } })
+        .pattern(/^[a-zA-Z0-9._%+-]+@gmail\.com$/)
+        .required(),
+    
+    password: Joi.string()
+        .min(8)
+        .pattern(/^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/)
+        .required()
 });
 
   const { error, value } = schema.validate(req.body);
